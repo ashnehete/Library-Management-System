@@ -1,0 +1,26 @@
+.jumbotron {
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.jumbotron p  {
+	margin: 0px;
+}
+
+.tab {
+	margin-top:20px;
+}
+
+.btn {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#search1 {
+	position: block;
+}
+
+.search_in {
+	margin-top: 10px;
+}

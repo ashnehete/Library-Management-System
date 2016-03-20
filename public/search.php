@@ -1,0 +1,21 @@
+<div class='row'>
+<div class="btn-group" data-toggle="buttons" id="search1">
+  <label class="btn btn-primary active">
+    <input type="radio" name="options" value="book">Book
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio" name="options" value="member">Member
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio" name="options" value="issue">Issue
+  </label>
+</div>
+<br>
+<div class="btn-group" data-toggle="buttons" id="search2_book"><label class="btn btn-primary active"><input type="radio" name="options2" value="Acc">Acc</label><label class="btn btn-primary"><input type="radio" name="options2" value="Author">Author</label><label class="btn btn-primary"><input type="radio" name="options2" value="Title">Title</label><label class="btn btn-primary"><input type="radio" name="options2" value="Call_No">Call_No</label><label class="btn btn-primary"><input type="radio" name="options2" value="Subject">Subject</label><label class="btn btn-primary"><input type="radio" name="options2" value="Publisher">Publisher</label><label class="btn btn-primary"><input type="radio" name="options2" value="Place">Place</label><label class="btn btn-primary"><input type="radio" name="options2" value="Date_Pub">Date_Pub</label><label class="btn btn-primary"><input type="radio" name="options2" value="Pages">Pages</label><label class="btn btn-primary"><input type="radio" name="options2" value="Binding">Binding</label><label class="btn btn-primary"><input type="radio" name="options2" value="ISBN">ISBN</label><label class="btn btn-primary"><input type="radio" name="options2" value="Seller">Seller</label><label class="btn btn-primary"><input type="radio" name="options2" value="Bill_No">Bill_No</label><label class="btn btn-primary"><input type="radio" name="options2" value="Price">Price</label><label class="btn btn-primary"><input type="radio" name="options2" value="Lang">Lang</label><label class="btn btn-primary"><input type="radio" name="options2" value="Issued">Issued</label></div>
+<div class="btn-group" data-toggle="buttons" id="search2_member"><label class="btn btn-primary active"><input type="radio" name="options2" value="Name">Name</label><label class="btn btn-primary"><input type="radio" name="options2" value="Number">Number</label><label class="btn btn-primary"><input type="radio" name="options2" value="Date">Date</label><label class="btn btn-primary"><input type="radio" name="options2" value="Receipt">Receipt</label><label class="btn btn-primary"><input type="radio" name="options2" value="Amount">Amount</label><label class="btn btn-primary"><input type="radio" name="options2" value="Expiry">Expiry</label><label class="btn btn-primary"><input type="radio" name="options2" value="Address">Address</label><label class="btn btn-primary"><input type="radio" name="options2" value="Phone_1">Phone_1</label><label class="btn btn-primary"><input type="radio" name="options2" value="Phone_2">Phone_2</label><label class="btn btn-primary"><input type="radio" name="options2" value="Email">Email</label><label class="btn btn-primary"><input type="radio" name="options2" value="Book_1">Book_1</label><label class="btn btn-primary"><input type="radio" name="options2" value="Book_2">Book_2</label></div>
+<div class="btn-group" data-toggle="buttons" id="search2_issue"><label class="btn btn-primary active"><input type="radio" name="options2" value="Acc">Acc</label><label class="btn btn-primary"><input type="radio" name="options2" value="Number">Number</label><label class="btn btn-primary"><input type="radio" name="options2" value="I_Date">I_Date</label><label class="btn btn-primary"><input type="radio" name="options2" value="R_date">R_date</label><label class="btn btn-primary"><input type="radio" name="options2" value="Reissue">Reissue</label><label class="btn btn-primary"><input type="radio" name="options2" value="Issued">Issued</label></div>
+<br>
+<input type="text" class="form-control" placeholder='Search...' id='search_in'>
+<div id='search_text'>
+</div>
+</div>
